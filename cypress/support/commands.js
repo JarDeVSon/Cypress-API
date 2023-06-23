@@ -22,7 +22,7 @@ Cypress.Commands.add("get_users_by_name", (name) => {
     qs: name,
   }).should((response) => {
     expect(response.status).equal(200);
-    return response.body;
+    return response;
   });
 });
 Cypress.Commands.add("post_user", (name, email, password, adminstrador) => {
@@ -41,6 +41,7 @@ Cypress.Commands.add("post_user", (name, email, password, adminstrador) => {
   }).should((response) => {
     expect(response.status).equal(201);
     expect(response.body.message).equal("Cadastro realizado com sucesso");
-    return response.body
+    expect(response.body).have.property('message', "Cadastro realizado com sucesso");
+    return response;
   });
 });
