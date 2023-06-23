@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "data[0]",
+    "email": "data0.Haley0@bol.com.br",
+    "password": "teste@123",
+    "administrador": "true"
+  },
+  {
+    "nome": "data [1]",
+    "email": "data1.Haley1@bol.com.br",
+    "password": "teste@123",
+    "administrador": "true"
+  }
+]

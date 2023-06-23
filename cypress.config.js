@@ -1,3 +1,4 @@
+const { tr } = require("@faker-js/faker");
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
@@ -16,7 +17,10 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     video: true,
+    waitForAnimations: true,
     pageLoadTimeout: 10000,
-    defaultCommandTimeout: 10000
+    defaultCommandTimeout: 10000,
+    requestTimeout: 6000,
+    responseTimeout: 6000
   },
 });
