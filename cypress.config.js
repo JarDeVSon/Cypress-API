@@ -21,6 +21,7 @@ module.exports = defineConfig({
     pageLoadTimeout: 10000,
     defaultCommandTimeout: 10000,
     requestTimeout: 6000,
-    responseTimeout: 6000
+    responseTimeout: 6000,
+    retries: 1
   },
 });
