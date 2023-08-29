@@ -11,15 +11,15 @@ describe("ServRest API Testing using Cypress API Plugin - ", () => {
   });
 
   it("POST - Users with Fakerjs ", () => {
-   cy.post_user(randomName, randomEmail, 'teste', 'true');
+   cy.post_user_faker_js(randomName, randomEmail, 'teste', 'true');
   });
      
   it("POST - Users with Fixtures [0]", () => {
-    cy.post_user(data[0].nome, data[0].email, data[0].password, data[0].administrador);
+    cy.post_user(data.usuario1);
    });
 
   it("POST - Users with Fixtures [1]", () => {
-    cy.post_user(data[1].nome, data[1].email, data[1].password, data[1].administrador);
+    cy.post_user(data.usuario2);
    });
 
 });
