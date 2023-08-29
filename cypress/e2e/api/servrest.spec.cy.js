@@ -6,6 +6,11 @@ describe("ServRest API Testing using Cypress API Plugin - ", () => {
   const randomName = faker.person.fullName(); // Rowan Nikolausz
   const randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
   
+
+  it("GET All User", () => {
+    cy.get_all_users();
+  });
+
   it("GET User By Name", () => {
     cy.get_users_by_name('Fulano da Silva');
   });

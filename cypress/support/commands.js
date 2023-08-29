@@ -10,7 +10,41 @@
 //
 //
 // -- This is a parent command --
-
+Cypress.Commands.add('get_all_users', () => {
+  cy.api({
+    method: 'GET',
+    url: '/' + 'usuarios',
+    failOnStatusCode: false,
+    // form: {
+    //   key3: 'value3',
+    //   key4: 'value4'
+    // },
+    // qs: {
+    //   param1: 'value1',
+    //   param2: 'value2'
+    // },
+    // auth: {
+    //   username: 'username',
+    //   password: 'password'
+    // },
+    // responseType: 'json', // 'json', 'text', 'blob', 'arraybuffer'
+    // timeout: 10000, // em milissegundos
+    // proxy: {
+    //   url: 'http://seu.proxy.com:porta',
+    //   auth: {
+    //     username: 'usuário',
+    //     password: 'senha'
+    //   }
+    // }
+    headers: {
+      "Content-Type": "application/json",
+    },
+    qs: name,
+  }).should((response) => {
+    expect(response.status).equal(200);
+    return response;
+  });
+});
 Cypress.Commands.add('get_users_by_name', (name) => {
   cy.api({
     method: 'GET',
