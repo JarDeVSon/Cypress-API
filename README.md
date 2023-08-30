@@ -35,7 +35,5 @@ Run the command `npm install` to install the following dependencies:
   
 # How to run Cypress( Interactive mode and Headless):
 
-__ To open UI Cypress
-- `npx cypress open`
-__ To run tests in mode headless
-- `npx cypress run`
+- `npx cypress open` To open UI Cypress interactive mode
+- `npx cypress run` To run tests in mode headless
