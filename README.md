@@ -1,12 +1,12 @@
-The Importance of a Cypress Test Pipeline for Software Quality.
+# The Importance of a Cypress Test Pipeline for Software Quality.
 
-I will share the importance of a Cypress testing pipeline to ensure software quality. Cypress is a modern and efficient testing framework that allows you to automate front-end, API, and end-to-end tests.
+  I will share the importance of a Cypress testing pipeline to ensure software quality. Cypress is a modern and efficient testing framework that allows you to automate front-end, API, and end-to-end tests.
 
-A Cypress test pipeline automates testing at all stages of software development. This helps identify problems early, reducing rework and costs. Furthermore, it ensures continuous quality assurance by running tests regularly to avoid regressions.
+  A Cypress test pipeline automates testing at all stages of software development. This helps identify problems early, reducing rework and costs. Furthermore, it ensures continuous quality assurance by running     tests regularly to avoid regressions.
 
-The benefits of a Cypress test pipeline include:
+# The benefits of a Cypress test pipeline include:
 
-✅ Early detection of problems: Automated tests identify failures and bugs early on, reducing rework and costs.
+✅ Early detection of problems: Automated tests identify failures and bugs early, reducing rework and costs.
 
 ✅ Continuous quality assurance: The test pipeline maintains the stability of the software, verifying its operation as new changes are made.
 
@@ -16,26 +16,26 @@ The benefits of a Cypress test pipeline include:
 
 ✅ Improved collaboration: Test automation promotes team collaboration, eliminating time-consuming manual testing and allowing for more efficient work.
 
-In short, a Cypress test pipeline is essential for ensuring software quality, with early detection of issues, continuous quality assurance, efficiency, quick feedback, and improved collaboration between teams.
-Integrating Cypress into a test pipeline provides reliable results and helps build robust, high-quality software. Give Cypress a try and enjoy the benefits of a well-structured testing pipeline! #software #quality #work #development #pipeline #github #QA #cypress
+  In short, a Cypress test pipeline is essential for ensuring software quality, with early detection of issues, continuous quality assurance, efficiency, quick feedback, and improved collaboration between teams.
+  Integrating Cypress into a test pipeline provides reliable results and helps build robust, high-quality software. Give Cypress a try and enjoy the benefits of a well-structured testing pipeline! #software        #quality #work #development #pipeline #github #QA #cypress
 
 # Pré Requisites:
 
-# Install the Nodejs:
+- [Git]: https://git-scm.com/
+- [Nodejs]:https://nodejs.org/en
 
-- Nodejs: https://nodejs.org/en LTS
+# Installation
 
-# Run the command "npm install" to install the following dependencies:
+Run the command `npm install` to install the following dependencies:
 
-- Cypress: https://www.cypress.io/
-- Cypress Plugin API: https://github.com/filiphric/cypress-plugin-api
-- Mochawesome: https://www.npmjs.com/package/cypress-mochawesome-reporter
-- Fakerjs: https://fakerjs.dev/guide/usage.html
+- [Cypress]: https://www.cypress.io/
+- [Cypress Plugin API]: https://github.com/filiphric/cypress-plugin-api
+- [Mochawesome]: https://www.npmjs.com/package/cypress-mochawesome-reporter
+- [Fakerjs]: https://fakerjs.dev/guide/usage.html
   
+# How to run Cypress( Interactive mode and Headless):
 
-# How to execute and run Cypress:
-
-# To Open UI Cypress
-- npx cypress open
-# To run tests in mode headless
-- npx cypress run
+__ To open UI Cypress
+- `npx cypress open`
+__ To run tests in mode headless
+- `npx cypress run`
