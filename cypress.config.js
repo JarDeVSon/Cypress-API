@@ -12,6 +12,9 @@ module.exports = defineConfig({
       inlineAssets: true,
       saveAllAttempts: false,
     },
+    env: {
+      requestMode: true,
+    },
     baseUrl: 'https://serverest.dev', 
     video: true,
     waitForAnimations: true,
