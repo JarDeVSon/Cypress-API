@@ -21,17 +21,17 @@
 
 # Pré Requisites:
 
-- [Git]: https://git-scm.com/
-- [Nodejs]:https://nodejs.org/en
+- [Git](https://git-scm.com/)
+- [Nodejs](https://nodejs.org/en)
 
 # Installation
 
 Run the command `npm install` to install the following dependencies:
 
-- [Cypress]: https://www.cypress.io/
-- [Cypress Plugin API]: https://github.com/filiphric/cypress-plugin-api
-- [Mochawesome]: https://www.npmjs.com/package/cypress-mochawesome-reporter
-- [Fakerjs]: https://fakerjs.dev/guide/usage.html
+- [Cypress](https://www.cypress.io/)
+- [Cypress Plugin API](https://github.com/filiphric/cypress-plugin-api)
+- [Mochawesome](https://www.npmjs.com/package/cypress-mochawesome-reporter)
+- [Fakerjs](https://fakerjs.dev/guide/usage.html)
   
 # How to run Cypress( Interactive mode and Headless):
 
